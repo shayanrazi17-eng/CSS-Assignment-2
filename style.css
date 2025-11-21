@@ -1,0 +1,51 @@
+* { 
+    font-weight: bolder;
+}
+
+span {
+    text-transform: uppercase;
+    display: grid;
+    place-items: center;    
+    margin-top: 100px; 
+    font-size: xx-large;
+
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* height: 100vh; */
+    position: relative;
+    top: 20px;
+
+}
+
+div {
+    border: 6px outset grey;
+    width: 330px;
+    height: 330px;
+    margin: 15px;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    margin-top: 15px;
+}
+
+input {
+    width: 270px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    border-radius: 17px;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+p {
+    font-size: large;
+    text-transform: capitalize;
+}
